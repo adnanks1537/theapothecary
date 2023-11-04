@@ -1,0 +1,1247 @@
+<!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+                <link rel="stylesheet" href="styles.css">
+                <title>APOTHECARY</title>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.0/dist/css/bootstrap.min.css">
+  <style>
+
+    /*
+Theme Name: Your Theme Name
+Description: A description of your theme.
+Author: Your Name
+Version: 1.0
+*/
+
+
+.section {
+    color: #fff;
+    text-align: center;
+    min-height: 100vh; /* Make each section fill the viewport height */
+}
+
+
+
+
+
+/* Define styles for sections 3 to 6 with different background colors */
+
+header {
+    background-color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+.video-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.video-section video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.video-section p {
+    margin-top: 60px;
+    margin-right: 10px;
+}
+
+/* Adjust the position of the logo */
+.video-section .ml-3 {
+    margin-left: 10px; /* Adjust the value as needed */
+}
+
+/* Center the logo vertically within the header */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+/* Style the logo image */
+.navbar-brand img {
+    max-height: 50px; /* Adjust the height as needed */
+}
+
+/* Add some space between the logo and navigation on larger screens */
+.navbar-nav {
+    margin-left: auto;
+}
+
+/* Style the navigation links */
+.navbar-nav .nav-link {
+    padding: 10px 20px; /* Adjust the padding as needed */
+}
+
+/* Change the navigation link color on hover */
+.navbar-nav .nav-link:hover {
+    color: #333; /* Change to your preferred color */
+}
+
+/* Style the header background */
+header {
+    background-color: #fff; /* Change to your preferred color */
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Style the navigation toggle button */
+.navbar-toggler-icon {
+    background-color: #333; /* Toggle button color */
+}
+.section .text-center {
+    text-align: center; /* Horizontally center the text */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%; /* Vertically center the text */
+}
+
+
+.section p {
+    font-size: 18px; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Add space between tagline and button */
+}
+
+/* Add space between the button and the logo */
+.section .ml-3 {
+    margin-left: 1rem; /* Adjust the margin as needed */
+}
+/* ... (Previous CSS code) ... */
+
+.card:hover {
+    transform: scale(1.05); /* Increase size on hover */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* Bootstrap tooltip styles */
+.use-cases-section .card-use-cases {
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 5px #ffffff80;
+}
+
+.use-cases-section .card-use-cases img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.use-cases-section .card-use-cases .card-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.use-cases-section .card-use-cases:hover .card-body {
+    transform: rotateX(0deg);
+}
+
+.use-cases-section .card-use-cases .card-title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+    top: 45px;
+}
+
+.use-cases-section .card-use-cases:hover img {
+    transform: scale(0);
+}
+
+.card-use-cases:hover img {
+    scale: 0;
+}
+.video-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.video-section video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the entire section with the video */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Place it behind other content */
+}
+
+.container {
+    z-index: 1; /* Ensure content is above the video */
+    text-align: center; /* Center-align the content */
+    color: #fff; /* Text color for better contrast on video */
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Add some padding to the section */
+.section {
+    padding: 50px 0;
+}
+#section3 {
+    padding: 100px 0; /* Add some spacing to improve the layout */
+    background-color: white;
+}
+
+/* Center align the process-heading */
+.process-heading {
+    text-align: center;
+}
+
+/* Style for the process boxes */
+.process-box {
+    border: 0;
+}
+
+/* Set the width of each process box (adjust as needed) */
+.process-box {
+    width: 100%; /* Display each box in full width */
+}
+
+/* Center the process boxes horizontally and add some spacing */
+.process-box.card {
+    margin: 0 10px;
+    height: 95%;
+}
+
+/* Ensure the process icons are centered */
+.process-icon {
+    margin: 0 auto;
+}
+
+/* Increase the size of the process icons */
+.process-icon i {
+    font-size: 36px;
+}
+
+/* Adjust the space between process title and description */
+.process-title {
+    margin: 10px 0;
+}
+
+/* Make the "Contact Us" button centered */
+.text-center .btn-primary.rounded-pill {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+/* Center align the process-heading */
+.process-heading {
+    text-align: center;
+}
+.section {
+    position: relative;
+    overflow: hidden;
+}
+
+.video-section video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+
+.process-box {
+    display: inline-block;
+    margin-right: 20px; /* Adjust the spacing between boxes as needed */
+    vertical-align: top;
+}
+.card {
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 1);
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+    height: 100%;
+}
+
+.card img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.card .card-body {
+    padding: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 0 30px rgba(255, 0, 0, 1);
+}
+
+.card__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }
+  .card {
+    word-wrap: break-word;
+  }
+
+
+  .profile-card {
+    position: relative;
+    width: 190px;
+    height: 254px;
+    background: #f00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(315deg, #03a9f4, #ff0058);
+  }
+  
+  .profile-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(315deg, #03a9f4, #ff0058);
+    filter: blur(30px);
+  }
+  
+  .profile-card b {
+    position: absolute;
+    inset: 6px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+  }
+  
+  .profile-card img {
+    position: absolute;
+    z-index: 3;
+    transform: scale(0.8);
+    opacity: 0.25;
+    transition: 0.5s;
+  }
+  
+  .profile-card:hover img {
+    transform: scale(0.5);
+    opacity: 0.9;
+    transform: translateY(-70px);
+  }
+  
+  .profile-card .card-content {
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: scale(0);
+    transition: 0.5s;
+  }
+  
+  .profile-card:hover .card-content {
+    transform: scale(1);
+    bottom: 25px;
+  }
+  
+  .card-content .card-title {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1em;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .card-content .card-title span {
+    font-weight: 300;
+    font-size: 0.70em;
+  }
+  
+  .card-content .social-links {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 5px;
+  }
+  
+  .social-links li {
+    list-style: none;
+  }
+  
+  .social-links li .fa-brands {
+    width: 14px;
+  }
+  
+  .social-links li .fa-facebook {
+    width: 10px;
+  }
+  
+  .social-links li a {
+    position: relative;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    background: rgba(0, 0, 0, 0.2);
+    fill: currentColor;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transition: 0.5s;
+  }
+  
+  .social-links li a:hover {
+    fill: currentColor;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .new-card {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .new-card svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .new-card:hover {
+    transform: rotate(-5deg) scale(1.1);
+  }
+  
+  .new-card__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    opacity: 0;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .new-card img {
+    width: 250px;
+    height: 300px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .new-card:hover .new-card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+  
+  .new-card__title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  .new-card__description {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.4;
+  }
+  
+  .new-card:hover svg {
+    scale: 0;
+    transform: rotate(-45deg);
+  }
+  
+  .unique-card {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    border-radius: 14px;
+    z-index: 1111;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    margin-bottom: 20px;
+  }
+
+  .unique-bg {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 190px;
+    height: 240px;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(24px);
+    border-radius: 10px;
+    overflow: hidden;
+    outline: 2px solid white;
+  }
+
+  .unique-blob {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    opacity: 1;
+    filter: blur(12px);
+    animation: blob-bounce 5s infinite ease;
+  }
+
+  .unique-card img {
+    max-width: 100%;  /* Set the image width to 100% of the parent container */
+    max-height: 100%; /* Set the image height to 100% of the parent container */
+  }
+  
+  @keyframes blob-bounce {
+    0% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+  
+    25% {
+      transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+    }
+  
+    50% {
+      transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+    }
+  
+    75% {
+      transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+    }
+  
+    100% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+  }
+
+  tagline h1 {
+    font-size: 34px;
+}
+
+/* Create a new class for the PNG file and position it */
+.logo-image {
+    position: absolute;
+    top: 35%;
+    right: 22%;
+    transform: translateY(calc(-50% + 40px)); /* Adjust the value for vertical position */
+    max-width: 100%;
+    max-height: 200px; /* Adjust the height as needed */
+    display: block; /* Ensure the logo is centered horizontally */
+    margin: 0 auto; /* Center the logo horizontally */
+    z-index: 3; /* Set z-index higher than the text */
+    
+}
+
+.btn-learn-more {
+display: inline-block;
+margin-top: 20px;
+padding: 10px 20px;
+background-color: #007bff; /* Change to your desired button color */
+color: white;
+text-decoration: none;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.btn-learn-more:hover {
+background-color: #0056b3; /* Change to your desired hover color */
+}
+
+/* Add rounded corners to cards */
+.rounded-3d {
+  border-radius: 15px; /* Adjust the radius as needed */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+/* Style the card images */
+.card-img-top.rounded-3d {
+  border-radius: 0;
+  transition: transform 0.3s;
+}
+
+.card-img-top.rounded-3d:hover {
+  transform: scale(1.1);
+}
+.object-cover {
+  object-fit: cover;
+  height: 100%; 
+}
+
+.fixed-icons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-floating {
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%; 
+  text-align: center;
+  margin: 10px 0; 
+  font-size: 24px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-floating i {
+  vertical-align: middle;
+}
+.card-custom {
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 1);
+  overflow: hidden;
+  transition: box-shadow 0.3s;
+  height: 100%;
+}
+
+.card-custom img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.card-custom .card-body {
+  padding: 10px;
+}
+
+.card-custom:hover {
+  box-shadow: 0 0 30px rgba(255, 0, 0, 1);
+}
+
+.card-custom-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#tagline-container {
+position: relative;
+left: 1100%; /* Adjust the percentage value as needed */
+}
+
+#tagline {
+font-size: 24px; /* Adjust the font size as needed */
+color: red; /* Customize the text color */
+font-weight: bold; /* Add bold styling if desired */
+}
+
+#additional-text {
+font-size: 16px; /* Adjust the font size as needed */
+color: #777; /* Customize the text color */
+/* Add any additional styles you want */
+}
+
+#tagline {
+position: absolute;
+left: 50%;
+bottom: 10%; /* Adjust the percentage value as needed */
+transform: translateX(-50%);
+}
+
+
+
+  </style>
+            </head>
+            <body>
+              <header class="text-center"> <!-- Center align the content in the header -->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                    <div class="container">
+                        <a class="navbar-brand" href="#">
+                            <img src="logo/Asset 2.png" alt="Logo" class="img-fluid"> <!-- Add your logo image -->
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ml-auto"> <!-- Align the navigation to the right -->
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="aboutus.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="product.html">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="testimonials.html">Testimonials</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="contact.html">Contact</a>
+                              </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        
+               
+            
+                <main>
+                    <section class="section video-section" id="section1">
+                        <video autoplay loop muted poster="your-poster-image.jpg">
+                            <source src="bg/apoc 002.MP4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="container">
+                          <div class="row">
+                              <div class="col-md-6 offset-md-6">
+                                  <!-- Right side of the page -->
+                                  <div class="text-right">
+                                      <img src="apoc powered by 3-01.png" alt="Your Image" class="img-fluid mb-3">
+                                      <h2 class="font-weight-bold text-danger">Future  of HealthCare.Delivered</h2>
+                                      <a href="aboutus.html" class="btn btn-primary">Learn More</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </section>
+                    
+                    
+                    
+                    
+                    
+                    
+            
+                    <section class="use-cases-section" style="background-image: url('images/bg2.jpg');">
+                        <br>
+                        <div class="process-heading text-center mb-5 text-danger">
+                            <h3 class="text-uppercase"><b>Use Cases </b></h3>
+                            <p class="text-muted" > </p>
+                        </div>
+                        <br>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                                    <div class="card-use-cases">
+                                        <img src="pictures/ambulance.jpg" class="card-img-top">
+                                        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                                            <h5 class="card-title text-danger"><b>Smart Emergency</b></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                                    <div class="card-use-cases">
+                                        <img src="pictures/WATERAMBULANCE.jpg" class="card-img-top">
+                                        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                                            <h5 class="card-title text-danger"> <b>Water Ambulance</b></h5>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                                    <div class="card-use-cases">
+                                        <img src="pictures/HELICOPTOR.jpg" class="card-img-top">
+                                        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                                            <h5 class="card-title text-danger"><b>Air Ambulance</b></h5>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                                    <div class="card-use-cases">
+                                        <img src="pictures/MOBILEACCESS.jpg" class="card-img-top">
+                                        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                                            <h5 class="card-title text-danger"><b>Tele ICU</b></h5>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                                    <div class="card-use-cases">
+                                        <img src="pictures/SMARTICU.jpg" class="card-img-top">
+                                        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                                            <h5 class="card-title text-danger"><b>Smart Clinics</b></h5>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                                    <div class="card-use-cases" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                                        <img src="pictures/AMBULANCE VEIW.jpg" class="card-img-top">
+                                        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                                            <h5 class="card-title text-danger"><b>Road Ambulance</b></h5>
+                                          
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="section video-section bg-danger " id="section3">
+                        
+                        <div class="container h-100 d-flex align-items-center">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-7">
+                                        <div class="process-heading text-center mb-5 text-white">
+                                            <h3 class="text-uppercase"><b>Key Features </b></h3>
+                                            <p class="text-muted" > </p>
+                                        </div>
+                                    </div><!--end col-->
+                                </div><!--end row-->
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="process-line position-relative">
+                                            <div class="row">
+                                                <!-- Repeat this process-box for other items -->
+                                                <div class="col-lg-3 col-md-6">
+                                                    <div class="process-box card text-center border-0 mt-4">
+                                                        <div class="mb-3 pb-2">
+                                                            <img src="key-features/aitech.jpg" alt="01" class="img-fluid">
+                                                        </div>
+                                                        <div class="process-icon f-24">
+                                                            <i class="mdi mdi-chevron-double-right"></i>
+                                                        </div>
+                                                        <a href="#" class="process-title text-uppercase mt-3"><h6>AI-ENHANCED DIAGNOSTICS</h6></a>
+                                                        <div class="card-body rounded mt-3 border py-4">
+                                                            <p class="text-muted mb-0">AI-Enhanced Diagnostics: With DICOM connectivity and powerful Artificial Intelligence, we elevate diagnostics and decision-making, enhancing the quality of your healthcare solutions.</p>
+                                                        </div>
+                                                    </div><!--end process-box-->
+                                                </div><!--end col-->
+                                                <div class="col-lg-3 col-md-6">
+                                                    <div class="process-box card text-center border-0 mt-4">
+                                                        <div class="mb-3 pb-2">
+                                                            <img src="key-features/care.jpg" alt="01" class="img-fluid">
+                                                        </div>
+                                                        <div class="process-icon f-24">
+                                                            <i class="mdi mdi-chevron-double-right"></i>
+                                                        </div>
+                                                        <a href="#" class="process-title text-uppercase mt-3"><h6>COMPREHENSIVE PATIENT CARE</h6></a>
+                                                        <div class="card-body rounded mt-3 border py-4">
+                                                            <p class="text-muted mb-0">Experience seamless integration with a wide range of medical devices, ensuring comprehensive care for patients</p>
+                                                        </div>
+                                                    </div><!--end process-box-->
+                                                </div><!--end col-->
+                                                <div class="col-lg-3 col-md-6">
+                                                    <div class="process-box card text-center border-0 mt-4">
+                                                        <div class="mb-3 pb-2">
+                                                            <img src="key-features/certified.jpg" alt="01" class="img-fluid">
+                                                        </div>
+                                                        <div class="process-icon f-24">
+                                                            <i class="mdi mdi-chevron-double-right"></i>
+                                                        </div>
+                                                        <a href="#" class="process-title text-uppercase mt-3"><h6>CERTIFIED DIGITAL DIAGNOSTICS</h6></a>
+                                                        <div class="card-body rounded mt-3 border py-4">
+                                                            <p class="text-muted mb-0">We offer FDA/CE certified digital diagnostic devices for secure, compliant, and encrypted data transmission, guaranteeing the safety of your health data.</p>
+                                                        </div>
+                                                    </div><!--end process-box-->
+                                                </div><!--end col-->
+                                                <div class="col-lg-3 col-md-6">
+                                                    <div class="process-box card text-center border-0 mt-4">
+                                                        <div class="mb-3 pb-2">
+                                                            <img src="key-features/cutting.jpg" alt="01" class="img-fluid">
+                                                        </div>
+                                                        <div class="process-icon f-24">
+                                                            <i class="mdi mdi-chevron-double-right"></i>
+                                                        </div>
+                                                        <a href="#" class="process-title text-uppercase mt-3"><h6>CUTTING-EDGE HEALTHCARE SOLUTION</h6></a>
+                                                        <div class="card-body rounded mt-3 border py-4">
+                                                            <p class="text-muted mb-0">Our advanced healthcare solution incorporates Assisted Reality Smart Glasses, ensuring expert support and guidance.</p>
+                                                        </div>
+                                                    </div><!--end process-box-->
+                                                </div><!--end col-->
+                                                <div class="col-lg-3 col-md-6">
+                                                    <div class="process-box card text-center border-0 mt-4">
+                                                        <div class="mb-3 pb-2">
+                                                            <img src="key-features/electronic.jpg" alt="01" class="img-fluid">
+                                                        </div>
+                                                        <div class="process-icon f-24">
+                                                            <i class="mdi mdi-chevron-double-right"></i>
+                                                        </div>
+                                                        <a href="#" class="process-title text-uppercase mt-3"><h6> ELECTRONIC MEDICAL RECORDS ACCESS</h6></a>
+                                                        <div class="card-body rounded mt-3 border py-4">
+                                                            <p class="text-muted mb-0">Access Electronic Medical Records for future reference and continuous care, enhancing the quality of your healthcare journey.</p>
+                                                        </div>
+                                                    </div><!--end process-box-->
+                                                </div><!--end col-->
+                                                <div class="col-lg-3 col-md-6">
+                                                    <div class="process-box card text-center border-0 mt-4">
+                                                        <div class="mb-3 pb-2">
+                                                            <img src="key-features/ultrasound.jpg" alt="01" class="img-fluid">
+                                                        </div>
+                                                        <div class="process-icon f-24">
+                                                            <i class="mdi mdi-chevron-double-right"></i>
+                                                        </div>
+                                                        <a href="#" class="process-title text-uppercase mt-3"><h6> REAL-TIME ULTRASOUND DIAGNOSTICS</h6></a>
+                        <div class="card-body rounded mt-3 border py-4">
+                            <p class="text-muted mb-0">Benefit from live multi-window ultrasound capabilities, enabling real-time diagnostics for better healthcare decisions.</p>
+                        </div>
+                                                    </div><!--end process-box-->
+                                                </div><!--end col-->
+                                                <div class="col-lg-3 col-md-6">
+                                                    <div class="process-box card text-center border-0 mt-4">
+                                                        <div class="mb-3 pb-2">
+                                                            <img src="key-features/video call.jpg" alt="01" class="img-fluid">
+                                                        </div>
+                                                        <div class="process-icon f-24">
+                                                            <i class="mdi mdi-chevron-double-right"></i>
+                                                        </div>
+                                                        <a href="#" class="process-title text-uppercase mt-3"><h6>CLICK AND CollABORATE REMOTE VIDEO ASSISTANCE</h6></a>
+                        <div class="card-body rounded mt-3 border py-4">
+                            <p class="text-muted mb-0">Utilize our remote video assistance with advanced features like location tracking and annotation, simplifying communication with healthcare experts.</p>
+                        </div>
+                                                    </div><!--end process-box-->
+                                                </div><!--end col-->
+                                                <div class="col-lg-3 col-md-6">
+                                                    <div class="process-box card text-center border-0 mt-4">
+                                                        <div class="mb-3 pb-2">
+                                                            <img src="key-features/video consultance.jpg" alt="01" class="img-fluid">
+                                                        </div>
+                                                        <div class="process-icon f-24">
+                                                            <i class="mdi mdi-chevron-double-right"></i>
+                                                        </div>
+                                                        <a href="#" class="process-title text-uppercase mt-3"><h6>VIDEO CONSULTATION AND CONFERENCE</h6></a>
+                        <div class="card-body rounded mt-3 border py-4">
+                            <p class="text-muted mb-0">Enjoy video consultations and conferences over 4G, 5G, Satellite, and LAN networks, ensuring easy access to healthcare expertise.</p>
+                        </div>
+                                                    </div><!--end process-box-->
+                                                </div><!--end col-->
+                                                <!-- Repeat this process-box for other items -->
+                                            </div><!--end row-->
+                                        </div><!--end process-line-->
+                                    </div><!--end col-->
+                                    
+                        </div>
+                    </section>
+
+                    <section class="section bg-danger key-features-section" style="position: relative;" id="section4">
+                      <h1 class="text-center text-white">INTEGRETED DEVICES</h1>
+                      <br>
+                      <div class="container">
+                          <div class="row">
+                              <div class="white-bordered-container col-6">
+                                  <div class="col-12">
+                                      <h1 class="text-center text-white text-decoration-underline">OVERVIEW</h1>
+                                      <br>
+                                      <p class="">Our cutting-edge solution enables seamless connectivity and interoperability between various medical devices and healthcare
+                                        platforms. This innovative technology ensures that medical devices from our partners can communicate and exchange data with 4 healthcare systems, regardless of the underlying platform or sottware</p>
+                                  </div>
+                                  
+                              </div>
+                              <div class="col-6">
+                                  <div class="row">
+                                      <div class="col-4">
+                                          <img src="devices/Smart-eyewear-150x150.png" class="img-fluid custom-logo" alt="Image 1">
+                                      </div>
+                                      <div class="col-4">
+                                          <img src="devices/Patient-monitor-150x150.png " class="img-fluid custom-logo" alt="Image 2">
+                                      </div>
+                                      <div class="col-4">
+                                          <img src="devices/Blood-gas-analyzer-150x150.png" class="img-fluid custom-logo" alt="Image 3">
+                                      </div>
+                                  </div>
+                                  <br>
+                                  <div class="row">
+                                      <div class="col-4">
+                                          <img src="devices/Smart Al Camera.PNG" class="img-fluid custom-logo" alt="Image 1">
+                                      </div>
+                                      <div class="col-4">
+                                          <img src="devices/Syringe-pump-150x150.png" class="img-fluid custom-logo" alt="Image 2">
+                                      </div>
+                                      <div class="col-4">
+                                          <img src="devices/Ventilator-150x150.png" class="img-fluid custom-logo" alt="Image 3">
+                                      </div>
+                                  </div>
+                                  <br>
+                                  <div class="row">
+                                      <div class="col-4">
+                                          <img src="devices/Defibrillator-150x150.png" class="img-fluid custom-logo" alt="Image 1">
+                                      </div>
+                                      <div class="col-4">
+                                          <img src="devices/Hand Held Ultrasound.PNG" class="img-fluid custom-logo" alt="Image 2">
+                                      </div>
+                                      <div class="col-4">
+                                          <img src="devices/Stethoscope.WEBP" class="img-fluid custom-logo" alt="Image 3">
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <br>
+                          <br>
+                          <div class="row">
+                              <div class="col-12">
+                                  <div class="row justify-content-center">
+                                      <div class="col-2">
+                                        <img src="images/philips-healthcare-logo-clipart.png " class="img-fluid" alt="Image 1">
+                                      </div>
+                                      <div class="col-2">
+                                        <img src="images/Xperteye logo.PNG" class="img-fluid" alt="Image 2">
+                                      </div>
+                                      <div class="col-2">
+                                        <img src="images/Mindray-Logo-PNG1.png " class="img-fluid" alt="Image 3">
+                                      </div>
+                                      <div class="col-2">
+                                        <img src="images/GE Healthcare logo.PNG" class="img-fluid" alt="Image 4">
+                                      </div>
+                                      <div class="col-2">
+                                        <img src="images/allied-medical-limited-90x90-removebg-preview.png" class="img-fluid" alt="Image 5">
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </section>
+       
+                    <section class="section bg-white text-center col-md-6 mx-auto" id="section5">
+                        <div class="process-heading text-center mb-5 text-danger">
+                          <h3 class="text-uppercase"><b>NEWS & UPDATES</b></h3>
+                            <p class="text-muted" > </p>
+                        </div>
+                        <div class="container h-100 d-flex align-items-center">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 vv">
+                                    <img src="testimonials/news1.png" class="rounded img-fluid">
+                                    <h5 class="mb-3 mt-5">Kerala:Aluva to start first AR Ambulance</h5>
+                                    <!-- <p class="mb-4 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mattis metus, id accumsan erat.</p>
+                                    <a href="" class="btn btn-link">View More &rarr;</a> -->
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 vv">
+                                    <img src="testimonials/news2.png" class="rounded img-fluid">
+                                    <h5 class="mb-3 mt-5">Indias 1st Assisted reality enabled smart ambulance launched</h5>
+                                     <!-- <p class="mb-4 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mattis metus, id accumsan erat.</p>
+                                    <a href="" class="btn btn-link">View More &rarr;</a> -->
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 vv">
+                                        <img src="testimonials/news3.png" class="rounded img-fluid">
+                                        <h5 class="mb-3 mt-5">Indias 1st Assisted reality enabled smart ambulance launched</h5>
+                                         <!-- <p class="mb-4 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mattis metus, id accumsan erat.</p>
+                                        <a href="" class="btn btn-link">View More &rarr;</a> -->
+                                        </div>
+                                <div class="col-lg-4 col-md-6 vv">
+                                    <img src="testimonials/news4.png" class="rounded img-fluid">
+                                    <h5 class="mb-3 mt-5">Aster Medicity implements  India's first Assisted Reality enabled smart ambulance launched</h5>
+                                   <!-- <p class="mb-4 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mattis metus, id accumsan erat.</p>
+                                    <a href="" class="btn btn-link">View More &rarr;</a> -->
+                                    </div>
+                            </div>
+                        </div>
+                    </section>
+            
+                    <section class="section bg-danger text-center col-12 mx-auto" id="section6">
+                        <h1 class="text-center text-white text-decoration-underline">OUR ASSOCIATION</h1>
+                        <br>
+                        <br>
+                        <div class="container">
+                            <div class="row">
+                                <div class="unique-card">
+                                
+                                <div class="unique-bg">
+                                    <img src="testimonials/aster white.jpg" alt="Image 1">
+                                </div>
+                                <div class="unique-blob"></div>
+                                </div>
+                            
+                                <div class="unique-card">
+                                
+                                <div class="unique-bg">
+                                    <img src="testimonials/human-care-Logo-1.png" alt="Image 2">
+                                </div>
+                                <div class="unique-blob"></div>
+                                </div>
+                            
+                                <div class="unique-card">
+                                
+                                <div class= "unique-bg">
+                                    <img src="testimonials/blueindia.jpg" alt="Image 3">
+                                </div>
+                                <div class="unique-blob"></div>
+                                </div>
+                            
+                                <div class="unique-card">
+                                
+                                <div class="unique-bg"><img src="testimonials/zhl.jpg" alt="Image 4"></div>
+                                <div class="unique-blob"></div>
+                                </div>
+                            
+                                <div class="unique-card">
+                                
+                                <div class="unique-bg">
+                                    <img src="testimonials/bcmch-logo.png" alt="Image 5">
+                                </div>
+                                <div class="unique-blob"></div>
+                                </div>
+
+                                <div class="unique-card">
+                                    
+                                    <div class="unique-bg">
+                                        <img src="testimonials/marsleeva.jpg " alt="Image 5">
+                                    </div>
+
+                                    <div class="unique-blob"></div>
+                                </div>
+                            </div>
+                          
+                        </div>
+                          
+                    </section>
+            
+                    <!-- Repeat the above section structure for sections 3 to 6 with different background colors -->
+            
+                </main>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="fixed-icons">
+                    <a href="tel:+9190373933930" class="btn btn-primary btn-floating">
+                      <i class="fas fa-phone"></i>
+                    </a>
+                    <a href="https://api.whatsapp.com/send/?phone=919037393393&text=Thank+you+for+your+message%21+We+will+get+back+to+you+within+24+hours.+Kind+regards%2C+The+Apothecary+Team.%22&type=phone_number&app_absent=0" class="btn btn-success btn-floating">
+                      <i class="fab fa-whatsapp"></i>
+                    </a>
+                  </div>
+                <footer>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <br>
+                                <!-- Logo on the left side -->
+                                <img src="logo/Asset 3.png" alt="Footer Logo" height="50">
+                            </div>
+                            <div class="col-md-6">
+            
+                                <ul class="list-unstyled">
+                                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                    <li><a href="terms-of-service.html">Terms of Service</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <br>
+                                <ul class="list-inline social-icons">
+                                    <li class="list-inline-item">
+                                        <a href="https://www.facebook.com">
+                                            <i class="fab fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://www.instagram.com">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://www.linkedin.com">
+                                            <i class="fab fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+            
+                        <p>&copy; 2023 APOTHECARY</p>
+            
+                </footer>
+            
+                <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+                <script src="script.js"></script>
+                <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+            </body>
+            
+            </html>
